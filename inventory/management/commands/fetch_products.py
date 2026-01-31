@@ -57,8 +57,8 @@ class Command(BaseCommand):
         self.stdout.write("STEP 2: Generate credentials")
         self.stdout.write("="*70)
 
-        # Username: tesprogrammerDDMMYYC00 (SESUAI DEBUG - suffix C00)
-        username = f"tesprogrammer{day:02d}{month:02d}{year_2digit}C00"
+        # Username: tesprogrammerDDMMYYC01 (SESUAI KREDENSIAL - suffix C01)
+        username = f"tesprogrammer{day:02d}{month:02d}{year_2digit}C01"
 
         # Password: bisacoding-DD-MM-YY (DENGAN leading zero!)
         password_raw = f"bisacoding-{day:02d}-{month:02d}-{year_2digit}"
